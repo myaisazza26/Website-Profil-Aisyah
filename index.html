@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Diri - Aisyah Grisseeta Az-Zahra</title>
+    <!-- Menghubungkan file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigasi -->
+    <header>
+        <h1>Profil Mahasiswa</h1>
+        <nav>
+            <ul>
+                <li><a href="#tentang">Tentang Saya</a></li>
+                <li><a href="#riwayat">Riwayat Pendidikan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+        <!-- Bagian Tentang Saya -->
+        <section id="tentang" class="card">
+            <h2>Tentang Saya</h2>
+            <div class="bio-container">
+                <img src="Aisyah Grisseeta Az-Zahra_Universitas Muhammadiyah Gresik - Copy.jpeg" alt="Foto Profil Aisyah Grisseeta Az-Zahra" class="foto-profil">
+                <div class="bio-text">
+                    <p>Halo! Nama saya <strong>Aisyah Grisseeta Az-Zahra</strong>. Saya adalah seorang mahasiswi Tuli program studi Teknik Informatika yang memiliki ketertarikan mendalam pada pengembangan web, analisis data, dan teknologi kecerdasan buatan.</p>
+                    <p>Selain aktif di bidang akademik, saya juga senang belajar hal baru, mengelola bisnis kecil, serta aktif dalam kegiatan sosial dan organisasi di Gresik.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Riwayat Pendidikan (Tabel) -->
+        <section id="riwayat" class="card">
+            <h2>Riwayat Pendidikan</h2>
+            <table class="tabel-custom">
+                <thead>
+                    <tr>
+                        <th>Tingkat</th>
+                        <th>Institusi / Sekolah</th>
+                        <th>Tahun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Taman Kanak-Kanak Luar Biasa</td>
+                        <td>TKLB / Sederajat</td>
+                        <td>2011 - 2012</td>
+                    </tr>
+                    <tr>
+                        <td>Sekolah Dasar Luar Biasa</td>
+                        <td>SDLB / Sederajat</td>
+                        <td>2012 - 2018</td>
+                    </tr>
+                    <tr>
+                        <td>Sekolah Menengah Pertama Luar Biasa</td>
+                        <td>SMP / Sederajat</td>
+                        <td>2018 - 2021</td>
+                    </tr>
+                    <tr>
+                        <td>Sekolah Menengah Atas Luar Biasa</td>
+                        <td>SMA / Sederajat</td>
+                        <td>2021 - 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Perguruan Tinggi Swasta</td>
+                        <td>Universitas Muhammadiyah Gresik</td>
+                        <td>2024 - Sekarang</td>
+                    </tr>
+            </table>
+        </section>
+
+        <!-- Bagian Formulir Kontak -->
+        <section id="kontak" class="card">
+            <h2>Hubungi Saya</h2>
+            <form action="#" method="POST" class="form-custom">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pesan">Pesan:</label>
+                    <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-kirim">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Aisyah Grisseeta Az-Zahra. Dibuat dengan Visual Studio Code.</p>
+    </footer>
+
+</body>
+</html>
